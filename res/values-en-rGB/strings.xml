@@ -31,18 +31,17 @@
     <item quantity="other" msgid="3047615499770811984">"<xliff:g id="COUNT">%d</xliff:g> albums"</item>
   </plurals>
     <string name="goto_start" msgid="8979658707407220934">"Library"</string>
-    <string name="goto_playback" msgid="4885216161312176550">"Playback"</string>
     <string name="party_shuffle" msgid="8213359225506006168">"Party shuffle"</string>
     <string name="party_shuffle_off" msgid="1828744483354711679">"Party shuffle off"</string>
     <string name="delete_item" msgid="3363330144534750601">"Delete"</string>
     <string name="shuffle_all" msgid="1388193611787878773">"Shuffle all"</string>
     <string name="play_all" msgid="6309622568869321842">"Play all"</string>
-    <string name="delete_artist_desc" msgid="1843750591006508005">"All songs by <xliff:g id="ARTIST">%s</xliff:g> will be deleted permanently from the SD card."</string>
-    <string name="delete_artist_desc_nosdcard" msgid="1565010405469696133">"All songs by <xliff:g id="ARTIST">%s</xliff:g> will be deleted permanently from USB storage."</string>
-    <string name="delete_album_desc" msgid="535515999268177079">"The entire album, \"<xliff:g id="ALBUM">%s</xliff:g>\", will be deleted permanently from the SD card."</string>
-    <string name="delete_album_desc_nosdcard" msgid="2739690641188691896">"The entire album \"<xliff:g id="ALBUM">%s</xliff:g>\" will be deleted permanently from USB storage."</string>
-    <string name="delete_song_desc" msgid="1856800468541831408">"\"<xliff:g id="SONG">%s</xliff:g>\" will be deleted permanently from the SD card."</string>
-    <string name="delete_song_desc_nosdcard" msgid="2722621774200478721">"\"<xliff:g id="SONG">%s</xliff:g>\" will be deleted permanently from USB storage."</string>
+    <string name="delete_artist_desc" msgid="8665759524898379194">"Permanently delete all songs by <xliff:g id="ARTIST">%s</xliff:g> from the SD card?"</string>
+    <string name="delete_artist_desc_nosdcard" msgid="5729059309796497914">"Permanently delete all songs by <xliff:g id="ARTIST">%s</xliff:g> from USB storage?"</string>
+    <string name="delete_album_desc" msgid="8172412873562794429">"Permanently delete the entire album \"<xliff:g id="ALBUM">%s</xliff:g>\" from the SD card?"</string>
+    <string name="delete_album_desc_nosdcard" msgid="8612559166069885285">"Permanently delete the entire album \"<xliff:g id="ALBUM">%s</xliff:g>\" from USB storage?"</string>
+    <string name="delete_song_desc" msgid="1842681623848282205">"Permanently delete \"<xliff:g id="SONG">%s</xliff:g>\" from the SD card?"</string>
+    <string name="delete_song_desc_nosdcard" msgid="5064973032624148730">"Permanently delete \"<xliff:g id="SONG">%s</xliff:g>\" from USB storage?"</string>
     <string name="delete_confirm_button_text" msgid="7008121194944357274">"OK"</string>
   <plurals name="NNNtracksdeleted">
     <item quantity="one" msgid="8560276109508404217">"1 song was deleted."</item>
@@ -77,12 +76,12 @@
     <string name="podcasts_title" msgid="4928414142496858304">"Podcasts"</string>
     <string name="sdcard_missing_title" msgid="9008284946643270850">"No SD card"</string>
     <string name="sdcard_missing_title_nosdcard" msgid="7984839174824243958">"No USB storage"</string>
-    <string name="sdcard_missing_message" msgid="1169260755336159747">"Your phone does not have an SD card inserted."</string>
-    <string name="sdcard_missing_message_nosdcard" msgid="4894107850080476295">"Your phone does not have USB storage."</string>
+    <string name="sdcard_missing_message" msgid="2100061456003981823">"Your phone doesn\'t have an SD card inserted."</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="4459620970330194881">"Your phone doesn\'t have USB storage."</string>
     <string name="sdcard_busy_title" msgid="1162763571147174655">"SD card unavailable"</string>
     <string name="sdcard_busy_title_nosdcard" msgid="3319125156566499501">"USB storage unavailable"</string>
-    <string name="sdcard_busy_message" msgid="8071868348072728830">"Sorry, your SD card is busy."</string>
-    <string name="sdcard_busy_message_nosdcard" msgid="1644924834752791507">"Sorry, your USB storage is busy."</string>
+    <string name="sdcard_busy_message" msgid="579981082201215537">"Your SD card is busy."</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="1493449756827869166">"Your USB storage is busy."</string>
     <string name="sdcard_error_title" msgid="165682155008600643">"SD card error"</string>
     <string name="sdcard_error_title_nosdcard" msgid="7564338137076303931">"USB storage error"</string>
     <string name="sdcard_error_message" msgid="4574563894036627855">"An error was encountered on your SD card."</string>
@@ -110,7 +109,7 @@
     <string name="create_playlist_create_text" msgid="8149755205483279143">"Save"</string>
     <string name="create_playlist_overwrite_text" msgid="2007808383561024706">"Overwrite"</string>
     <string name="service_start_error_title" msgid="8649916852210198813">"Playback problem"</string>
-    <string name="service_start_error_msg" msgid="3880338547260838681">"Sorry, the song could not be played."</string>
+    <string name="service_start_error_msg" msgid="7061754255330276478">"The song couldn\'t be played."</string>
     <string name="service_start_error_button" msgid="480888406592240723">"OK"</string>
   <string-array name="weeklist">
     <item msgid="7005918873419323862">"1 week"</item>
@@ -135,25 +134,23 @@
     <string name="mediaplaybacklabel" msgid="6733604841530940397">"Music"</string>
     <string name="videobrowserlabel" msgid="8522326678447494657">"Videos"</string>
     <string name="mediapickerlabel" msgid="4549836003229914299">"Music"</string>
-    <string name="playback_failed" msgid="4477832192645009774">"Sorry, the player does not support this type of audio file."</string>
+    <string name="playback_failed" msgid="3811851150820251398">"The player doesn\'t support this type of audio file."</string>
     <string name="cancel" msgid="886559484711947520">"Cancel"</string>
     <string name="remove_from_playlist" msgid="2548577514849026354">"Remove from playlist"</string>
-    <string name="streamloadingtext" msgid="3367150884806639224">"Connecting to <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="streamloadingtext" msgid="8842426517396356215">"Connecting to <xliff:g id="HOST">%s</xliff:g>…"</string>
     <string name="mediasearch" msgid="959222971261132292">"Search for <xliff:g id="TERM">%s</xliff:g>, using:"</string>
     <string name="working_artists" msgid="8678357432732156580">"Artists…"</string>
     <string name="working_albums" msgid="8713273699401457426">"Albums…"</string>
     <string name="working_songs" msgid="2201491972050410684">"Songs…"</string>
     <string name="working_playlists" msgid="4424950806134653351">"Playlists…"</string>
-    <string name="loading" msgid="3267924133697717662">"Loading"</string>
+    <string name="loading" msgid="1991660396037155453">"Loading…"</string>
     <string name="sort_by_track" msgid="7662999005554152565">"Tracks"</string>
     <string name="sort_by_album" msgid="2912837715658975248">"Albums"</string>
     <string name="sort_by_artist" msgid="4607024967813199992">"Artists"</string>
-    <string name="music_picker_title" msgid="1561623486324013570">"Select music track"</string>
-    <string name="gadget_track" msgid="3186569295893300114">"Track <xliff:g id="TRACK_NUMBER">%d</xliff:g>"</string>
-    <string name="fail_to_start_stream" msgid="3605390187703912835">"Failed to play the requested stream."</string>
+    <string name="music_picker_title" msgid="4143865470317360605">"Choose music track"</string>
     <string name="search_settings_description" msgid="6520975349259883368">"Artists, albums and tracks"</string>
     <string name="search_hint" msgid="3766854898072633001">"Search Music"</string>
     <string name="fast_scroll_alphabet" msgid="5548732936480723311">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
-    <string name="widget_initial_text" msgid="6334545155963910952">"Touch to select music."</string>
+    <string name="widget_initial_text" msgid="3166878738860903586">"Touch to choose music."</string>
     <string name="effectspanel" msgid="8804547581593509614">"Sound effects"</string>
 </resources>

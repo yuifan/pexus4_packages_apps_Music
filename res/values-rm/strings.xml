@@ -31,23 +31,22 @@
     <item quantity="other" msgid="3047615499770811984">"<xliff:g id="COUNT">%d</xliff:g> albums"</item>
   </plurals>
     <string name="goto_start" msgid="8979658707407220934">"Biblioteca"</string>
-    <string name="goto_playback" msgid="4885216161312176550">"Reproducir"</string>
     <string name="party_shuffle" msgid="8213359225506006168">"Modus casual"</string>
     <string name="party_shuffle_off" msgid="1828744483354711679">"Modus casual deactivà"</string>
     <string name="delete_item" msgid="3363330144534750601">"Stizzar"</string>
     <string name="shuffle_all" msgid="1388193611787878773">"Tuts casualmain"</string>
     <string name="play_all" msgid="6309622568869321842">"Reproducir tuts"</string>
-    <string name="delete_artist_desc" msgid="1843750591006508005">"Tut las chanzuns da(d) <xliff:g id="ARTIST">%s</xliff:g> vegnan definitivamain stizzadas da la carta SD."</string>
-    <!-- no translation found for delete_artist_desc_nosdcard (1565010405469696133) -->
-    <!-- no translation found for delete_artist_desc_nosdcard (1843750591006508005) -->
+    <!-- no translation found for delete_artist_desc (8665759524898379194) -->
     <skip />
-    <string name="delete_album_desc" msgid="535515999268177079">"L\'entir album <xliff:g id="ALBUM">%s</xliff:g> vegn stizzà definitivamain da la carta SD."</string>
-    <!-- no translation found for delete_album_desc_nosdcard (2739690641188691896) -->
-    <!-- no translation found for delete_album_desc_nosdcard (535515999268177079) -->
+    <!-- no translation found for delete_artist_desc_nosdcard (5729059309796497914) -->
     <skip />
-    <string name="delete_song_desc" msgid="1856800468541831408">"La chanzun <xliff:g id="SONG">%s</xliff:g> vegn stizzada permanentamain da la carta SD."</string>
-    <!-- no translation found for delete_song_desc_nosdcard (2722621774200478721) -->
-    <!-- no translation found for delete_song_desc_nosdcard (1856800468541831408) -->
+    <!-- no translation found for delete_album_desc (8172412873562794429) -->
+    <skip />
+    <!-- no translation found for delete_album_desc_nosdcard (8612559166069885285) -->
+    <skip />
+    <!-- no translation found for delete_song_desc (1842681623848282205) -->
+    <skip />
+    <!-- no translation found for delete_song_desc_nosdcard (5064973032624148730) -->
     <skip />
     <string name="delete_confirm_button_text" msgid="7008121194944357274">"OK"</string>
   <plurals name="NNNtracksdeleted">
@@ -56,7 +55,6 @@
   </plurals>
     <string name="scanning" msgid="3529383847223198502">"Lectura da la carta SD..."</string>
     <!-- no translation found for scanning_nosdcard (8105284774487360148) -->
-    <!-- no translation found for scanning_nosdcard (3529383847223198502) -->
     <skip />
     <string name="nowplaying_title" msgid="8342523844307751761">"Vus udis actualmain"</string>
     <string name="partyshuffle_title" msgid="6582413231529992125">"Modus casual"</string>
@@ -85,27 +83,23 @@
     <string name="podcasts_title" msgid="4928414142496858304">"Podcasts"</string>
     <string name="sdcard_missing_title" msgid="9008284946643270850">"Nagina carta SD"</string>
     <!-- no translation found for sdcard_missing_title_nosdcard (7984839174824243958) -->
-    <!-- no translation found for sdcard_missing_title_nosdcard (9008284946643270850) -->
     <skip />
-    <string name="sdcard_missing_message" msgid="1169260755336159747">"Voss telefonin na cuntegna nagina carta SD."</string>
-    <!-- no translation found for sdcard_missing_message_nosdcard (4894107850080476295) -->
-    <!-- no translation found for sdcard_missing_message_nosdcard (1169260755336159747) -->
+    <!-- no translation found for sdcard_missing_message (2100061456003981823) -->
+    <skip />
+    <!-- no translation found for sdcard_missing_message_nosdcard (4459620970330194881) -->
     <skip />
     <string name="sdcard_busy_title" msgid="1162763571147174655">"Carta SD betg disponibla"</string>
     <!-- no translation found for sdcard_busy_title_nosdcard (3319125156566499501) -->
-    <!-- no translation found for sdcard_busy_title_nosdcard (1162763571147174655) -->
     <skip />
-    <string name="sdcard_busy_message" msgid="8071868348072728830">"\"Perstgisai, Vossa carta SD è occupada.\""</string>
-    <!-- no translation found for sdcard_busy_message_nosdcard (1644924834752791507) -->
-    <!-- no translation found for sdcard_busy_message_nosdcard (8071868348072728830) -->
+    <!-- no translation found for sdcard_busy_message (579981082201215537) -->
+    <skip />
+    <!-- no translation found for sdcard_busy_message_nosdcard (1493449756827869166) -->
     <skip />
     <string name="sdcard_error_title" msgid="165682155008600643">"Errur da la carta SD"</string>
     <!-- no translation found for sdcard_error_title_nosdcard (7564338137076303931) -->
-    <!-- no translation found for sdcard_error_title_nosdcard (165682155008600643) -->
     <skip />
     <string name="sdcard_error_message" msgid="4574563894036627855">"Sin Vossa carta SD è vegnida chattada ina errur."</string>
     <!-- no translation found for sdcard_error_message_nosdcard (4983430848526821234) -->
-    <!-- no translation found for sdcard_error_message_nosdcard (4574563894036627855) -->
     <skip />
     <string name="unknown_artist_name" msgid="5567811106415855219">"Artist nunenconuschent"</string>
     <string name="unknown_album_name" msgid="8525145988941244727">"Album nunenconuschent"</string>
@@ -130,7 +124,8 @@
     <string name="create_playlist_create_text" msgid="8149755205483279143">"Memorisar"</string>
     <string name="create_playlist_overwrite_text" msgid="2007808383561024706">"Remplazzar"</string>
     <string name="service_start_error_title" msgid="8649916852210198813">"Errur da lectura"</string>
-    <string name="service_start_error_msg" msgid="3880338547260838681">"\"Perstgisai, impussibel da reproducir la chanzun.\""</string>
+    <!-- no translation found for service_start_error_msg (7061754255330276478) -->
+    <skip />
     <string name="service_start_error_button" msgid="480888406592240723">"OK"</string>
   <string-array name="weeklist">
     <item msgid="7005918873419323862">"1 emna"</item>
@@ -155,26 +150,29 @@
     <string name="mediaplaybacklabel" msgid="6733604841530940397">"Musica"</string>
     <string name="videobrowserlabel" msgid="8522326678447494657">"Videos"</string>
     <string name="mediapickerlabel" msgid="4549836003229914299">"Musica"</string>
-    <string name="playback_failed" msgid="4477832192645009774">"\"Perstgisai, il lectur na sustegna betg quest tip da datotecas audio.\""</string>
+    <!-- no translation found for playback_failed (3811851150820251398) -->
+    <skip />
     <string name="cancel" msgid="886559484711947520">"Interrumper"</string>
     <string name="remove_from_playlist" msgid="2548577514849026354">"Allontanar da la playlist"</string>
-    <string name="streamloadingtext" msgid="3367150884806639224">"Connectar cun <xliff:g id="HOST">%s</xliff:g>"</string>
+    <!-- no translation found for streamloadingtext (8842426517396356215) -->
+    <skip />
     <string name="mediasearch" msgid="959222971261132292">"Tschertgar <xliff:g id="TERM">%s</xliff:g> cun agid da:"</string>
     <string name="working_artists" msgid="8678357432732156580">"Artists..."</string>
     <string name="working_albums" msgid="8713273699401457426">"Albums…"</string>
     <string name="working_songs" msgid="2201491972050410684">"Chanzuns..."</string>
     <string name="working_playlists" msgid="4424950806134653351">"Playlists..."</string>
-    <string name="loading" msgid="3267924133697717662">"Chargiar"</string>
+    <!-- no translation found for loading (1991660396037155453) -->
+    <skip />
     <string name="sort_by_track" msgid="7662999005554152565">"Tocs"</string>
     <string name="sort_by_album" msgid="2912837715658975248">"Albums"</string>
     <string name="sort_by_artist" msgid="4607024967813199992">"Artists"</string>
-    <string name="music_picker_title" msgid="1561623486324013570">"Tscherner in toc"</string>
-    <string name="gadget_track" msgid="3186569295893300114">"Toc <xliff:g id="TRACK_NUMBER">%d</xliff:g>"</string>
-    <string name="fail_to_start_stream" msgid="3605390187703912835">"Impussibel da reproducir il stream dumandà."</string>
+    <!-- no translation found for music_picker_title (4143865470317360605) -->
+    <skip />
     <string name="search_settings_description" msgid="6520975349259883368">"\"Artists, albums e tocs\""</string>
     <string name="search_hint" msgid="3766854898072633001">"Tschertgar en Musica"</string>
     <string name="fast_scroll_alphabet" msgid="5548732936480723311">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
-    <string name="widget_initial_text" msgid="6334545155963910952">"Tutgar per tscherner la musica."</string>
+    <!-- no translation found for widget_initial_text (3166878738860903586) -->
+    <skip />
     <!-- no translation found for effectspanel (8804547581593509614) -->
     <skip />
 </resources>

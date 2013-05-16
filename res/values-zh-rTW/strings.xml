@@ -31,18 +31,17 @@
     <item quantity="other" msgid="3047615499770811984">"<xliff:g id="COUNT">%d</xliff:g> 專輯"</item>
   </plurals>
     <string name="goto_start" msgid="8979658707407220934">"媒體庫"</string>
-    <string name="goto_playback" msgid="4885216161312176550">"播放內容"</string>
     <string name="party_shuffle" msgid="8213359225506006168">"派對隨機播放"</string>
     <string name="party_shuffle_off" msgid="1828744483354711679">"關閉派對隨機播放"</string>
     <string name="delete_item" msgid="3363330144534750601">"刪除"</string>
     <string name="shuffle_all" msgid="1388193611787878773">"全部隨機播放"</string>
     <string name="play_all" msgid="6309622568869321842">"全部播放"</string>
-    <string name="delete_artist_desc" msgid="1843750591006508005">"<xliff:g id="ARTIST">%s</xliff:g>的所有歌曲會從 SD 卡永久刪除。"</string>
-    <string name="delete_artist_desc_nosdcard" msgid="1565010405469696133">"所有 <xliff:g id="ARTIST">%s</xliff:g> 的歌曲將從 USB 儲存裝置中永久刪除。"</string>
-    <string name="delete_album_desc" msgid="535515999268177079">"「<xliff:g id="ALBUM">%s</xliff:g>」的所有內容會從 SD 卡永久刪除。"</string>
-    <string name="delete_album_desc_nosdcard" msgid="2739690641188691896">"整個專輯「<xliff:g id="ALBUM">%s</xliff:g>」將從 USB 儲存裝置中永久刪除。"</string>
-    <string name="delete_song_desc" msgid="1856800468541831408">"「<xliff:g id="SONG">%s</xliff:g>」會從 SD 卡永久刪除。"</string>
-    <string name="delete_song_desc_nosdcard" msgid="2722621774200478721">"「<xliff:g id="SONG">%s</xliff:g>」將從 USB 儲存裝置中永久刪除。"</string>
+    <string name="delete_artist_desc" msgid="8665759524898379194">"將「<xliff:g id="ARTIST">%s</xliff:g>」的所有歌曲從 SD 卡中永久刪除？"</string>
+    <string name="delete_artist_desc_nosdcard" msgid="5729059309796497914">"將「<xliff:g id="ARTIST">%s</xliff:g>」的所有歌曲從 USB 儲存裝置中永久刪除？"</string>
+    <string name="delete_album_desc" msgid="8172412873562794429">"將整張「<xliff:g id="ALBUM">%s</xliff:g>」專輯從 SD 卡中永久刪除？"</string>
+    <string name="delete_album_desc_nosdcard" msgid="8612559166069885285">"將整張「<xliff:g id="ALBUM">%s</xliff:g>」專輯從 USB 儲存裝置中永久刪除？"</string>
+    <string name="delete_song_desc" msgid="1842681623848282205">"將「<xliff:g id="SONG">%s</xliff:g>」從 SD 卡中永久刪除？"</string>
+    <string name="delete_song_desc_nosdcard" msgid="5064973032624148730">"將「<xliff:g id="SONG">%s</xliff:g>」從 USB 儲存裝置中永久刪除？"</string>
     <string name="delete_confirm_button_text" msgid="7008121194944357274">"確定"</string>
   <plurals name="NNNtracksdeleted">
     <item quantity="one" msgid="8560276109508404217">"已刪除 1 首樂曲。"</item>
@@ -77,12 +76,12 @@
     <string name="podcasts_title" msgid="4928414142496858304">"Podcast"</string>
     <string name="sdcard_missing_title" msgid="9008284946643270850">"沒有 SD 卡"</string>
     <string name="sdcard_missing_title_nosdcard" msgid="7984839174824243958">"沒有 USB 儲存裝置"</string>
-    <string name="sdcard_missing_message" msgid="1169260755336159747">"您的手機未插入 SD 卡。"</string>
-    <string name="sdcard_missing_message_nosdcard" msgid="4894107850080476295">"您的手機沒有 USB 儲存裝置。"</string>
+    <string name="sdcard_missing_message" msgid="2100061456003981823">"您的手機並未插入 SD 卡。"</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="4459620970330194881">"您的手機沒有 USB 儲存裝置。"</string>
     <string name="sdcard_busy_title" msgid="1162763571147174655">"無法使用 SD 卡"</string>
     <string name="sdcard_busy_title_nosdcard" msgid="3319125156566499501">"沒有可用的 USB 儲存裝置"</string>
-    <string name="sdcard_busy_message" msgid="8071868348072728830">"很抱歉，SD 卡忙碌中。"</string>
-    <string name="sdcard_busy_message_nosdcard" msgid="1644924834752791507">"很抱歉，您的 USB 儲存裝置忙碌中。"</string>
+    <string name="sdcard_busy_message" msgid="579981082201215537">"您的 SD 卡忙碌中。"</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="1493449756827869166">"您的 USB 儲存裝置忙碌中。"</string>
     <string name="sdcard_error_title" msgid="165682155008600643">"SD 卡錯誤"</string>
     <string name="sdcard_error_title_nosdcard" msgid="7564338137076303931">"USB 儲存裝置錯誤"</string>
     <string name="sdcard_error_message" msgid="4574563894036627855">"SD 卡發生錯誤。"</string>
@@ -110,7 +109,7 @@
     <string name="create_playlist_create_text" msgid="8149755205483279143">"儲存"</string>
     <string name="create_playlist_overwrite_text" msgid="2007808383561024706">"覆寫"</string>
     <string name="service_start_error_title" msgid="8649916852210198813">"播放內容問題"</string>
-    <string name="service_start_error_msg" msgid="3880338547260838681">"很抱歉，此樂曲無法播放。"</string>
+    <string name="service_start_error_msg" msgid="7061754255330276478">"無法播放這首歌曲。"</string>
     <string name="service_start_error_button" msgid="480888406592240723">"確定"</string>
   <string-array name="weeklist">
     <item msgid="7005918873419323862">"1 週"</item>
@@ -135,25 +134,23 @@
     <string name="mediaplaybacklabel" msgid="6733604841530940397">"音樂"</string>
     <string name="videobrowserlabel" msgid="8522326678447494657">"影片"</string>
     <string name="mediapickerlabel" msgid="4549836003229914299">"音樂"</string>
-    <string name="playback_failed" msgid="4477832192645009774">"很抱歉，播放器不支援此音訊檔格式。"</string>
+    <string name="playback_failed" msgid="3811851150820251398">"播放器不支援這種音訊檔格式。"</string>
     <string name="cancel" msgid="886559484711947520">"取消"</string>
     <string name="remove_from_playlist" msgid="2548577514849026354">"從播放清單移除"</string>
-    <string name="streamloadingtext" msgid="3367150884806639224">"連線到 <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="streamloadingtext" msgid="8842426517396356215">"正在連線至 <xliff:g id="HOST">%s</xliff:g>..."</string>
     <string name="mediasearch" msgid="959222971261132292">"透過以下工具，搜尋與「<xliff:g id="TERM">%s</xliff:g>」相符的結果："</string>
     <string name="working_artists" msgid="8678357432732156580">"演出者..."</string>
     <string name="working_albums" msgid="8713273699401457426">"專輯..."</string>
     <string name="working_songs" msgid="2201491972050410684">"樂曲..."</string>
     <string name="working_playlists" msgid="4424950806134653351">"播放清單..."</string>
-    <string name="loading" msgid="3267924133697717662">"載入中"</string>
+    <string name="loading" msgid="1991660396037155453">"載入中..."</string>
     <string name="sort_by_track" msgid="7662999005554152565">"曲目"</string>
     <string name="sort_by_album" msgid="2912837715658975248">"專輯"</string>
     <string name="sort_by_artist" msgid="4607024967813199992">"演出者"</string>
-    <string name="music_picker_title" msgid="1561623486324013570">"選取音樂曲目"</string>
-    <string name="gadget_track" msgid="3186569295893300114">"音軌 <xliff:g id="TRACK_NUMBER">%d</xliff:g>"</string>
-    <string name="fail_to_start_stream" msgid="3605390187703912835">"無法播放您要求的串流媒體。"</string>
+    <string name="music_picker_title" msgid="4143865470317360605">"選擇音樂曲目"</string>
     <string name="search_settings_description" msgid="6520975349259883368">"演出者、專輯及曲目。"</string>
     <string name="search_hint" msgid="3766854898072633001">"搜尋音樂"</string>
     <string name="fast_scroll_alphabet" msgid="5548732936480723311">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
-    <string name="widget_initial_text" msgid="6334545155963910952">"輕觸即可選取音樂。"</string>
+    <string name="widget_initial_text" msgid="3166878738860903586">"輕觸即可選擇音樂。"</string>
     <string name="effectspanel" msgid="8804547581593509614">"音效"</string>
 </resources>

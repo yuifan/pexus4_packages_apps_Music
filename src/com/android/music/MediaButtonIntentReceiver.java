@@ -94,19 +94,29 @@ public class MediaButtonIntentReceiver extends BroadcastReceiver {
                 case KeyEvent.KEYCODE_MEDIA_PREVIOUS:
                     command = MediaPlaybackService.CMDPREVIOUS;
                     break;
+                case KeyEvent.KEYCODE_MEDIA_PAUSE:
+                    command = MediaPlaybackService.CMDPAUSE;
+                    break;
+                case KeyEvent.KEYCODE_MEDIA_PLAY:
+                    command = MediaPlaybackService.CMDPLAY;
+                    break;
             }
 
             if (command != null) {
                 if (action == KeyEvent.ACTION_DOWN) {
                     if (mDown) {
-                        if (MediaPlaybackService.CMDTOGGLEPAUSE.equals(command)
+                        if ((MediaPlaybackService.CMDTOGGLEPAUSE.equals(command) ||
+                                MediaPlaybackService.CMDPLAY.equals(command))
                                 && mLastClickTime != 0 
                                 && eventtime - mLastClickTime > LONG_PRESS_DELAY) {
                             mHandler.sendMessage(
                                     mHandler.obtainMessage(MSG_LONGPRESS_TIMEOUT, context));
                         }
-                    } else {
-                        // if this isn't a repeat event
+                    } else if (event.getRepeatCount() == 0) {
+                        // only consider the first event in a sequence, not the repeat events,
+                        // so that we don't trigger in cases where the first event went to
+                        // a different app (e.g. when the user ends a phone call by
+                        // long pressing the headset button)
 
                         // The service may or may not be running, but we need to send it
                         // a command.
